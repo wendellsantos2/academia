@@ -1,4 +1,35 @@
-const depoimentos = [
+const financeiros = [
+  {
+    id: 1,
+    titulo: 'Faturamento Mês anterior R$ 5000',
+      },
+  {
+    id: 2,
+    titulo: '56 alunos ativos',
+  },
+  {
+    id: 3,
+    titulo: '10 Alunos Inadimplentes',
+   },  {
+    id: 4,
+    titulo: '10 Alunos Pagos',
+   }
+]
+const alunos = [
+  {
+    id: 1,
+    titulo: 'Júlio, 40 anos, São Paulo/SP.',
+  },
+  {
+    id: 2,
+    titulo: 'Júlio, 40 anos, São Paulo/SP.',
+   },
+  {
+    id: 3,
+    titulo: 'Júlio, 40 anos, São Paulo/SP.',
+  }
+]
+const campeonatos = [
   {
     id: 1,
     titulo: 'Júlio, 40 anos, São Paulo/SP.',
@@ -16,4 +47,4 @@ const depoimentos = [
   }
 ]
 
-export { depoimentos }
+export { alunos ,financeiros,campeonatos}

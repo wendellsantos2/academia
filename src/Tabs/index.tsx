@@ -2,12 +2,13 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Ionicons from 'react-native-vector-icons/Ionicons'
 
 import Principal from "./Principal";
-import Consultas from "./Consultas";
+import Consultas from "./Campeonatos";
 import Explorar from "./Explorar";
 import Perfil from "./Perfil";
-
+import React from "react";
+ 
 const Tab = createBottomTabNavigator()
-
+ 
 const screenOptions = {
   tabBarStyle: {
     backgroundColor: "#002851"
@@ -18,24 +19,24 @@ const screenOptions = {
 
 const tabs = [
   {
-    name: 'Principal',
+    name: 'Início',
     component: Principal,
     icon: 'home'
   },
   {
-    name: 'Consultas',
+    name: 'Campeonatos',
     component: Consultas,
-    icon: 'calendar'
+    icon: 'trophy'
   },
   {
-    name: 'Explorar',
+    name: 'Alunos',
     component: Explorar,
-    icon: 'search'
+    icon: 'people'
   },
   {
-    name: 'Perfil',
+    name: 'Pagamentos',
     component: Perfil,
-    icon: 'person'
+    icon: 'card'
   },
 ]
 

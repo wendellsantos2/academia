@@ -1,4 +1,5 @@
 import { Input, FormControl } from "native-base";
+import React from "react";
 
 interface InputProps {
   label?: string;
@@ -19,6 +20,7 @@ export function EntradaTexto ({
         placeholder={placeholder}
         size="lg"
         w="100%"
+        color="white"
         borderRadius="lg"
         bgColor="gray.100"
         secureTextEntry={secureTextEntry}
